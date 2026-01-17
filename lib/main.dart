@@ -30,7 +30,7 @@ class _appState extends State<app> {
   final _textController = TextEditingController();
   final List<String> _elements = [];
   final _random = Random();
-  var _selectedElement = 0;
+  var _selectedElement = -1;
 
   void selectRandomNumber() {
     setState(() {
